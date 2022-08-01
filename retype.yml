@@ -1,0 +1,9 @@
+input: .
+output: .retype
+url: etersu.fun
+branding:
+  title: Etersu
+  label: Docs
+
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
