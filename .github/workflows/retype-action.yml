@@ -16,7 +16,7 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         with:
-          license: ${{ secrets.ETERSUDOCS }}
+          license: ${{ETERSUDOCS}}
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
