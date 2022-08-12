@@ -1,9 +1,10 @@
-input: .
++input: .
 output: .retype
 url: etersu.fun
 branding:
-  title: Etersu
-  label: Docs
+  title: etersu
+ #label: Docs
+  logo: assets/etersu.png
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
