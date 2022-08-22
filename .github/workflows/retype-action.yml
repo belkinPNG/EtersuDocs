@@ -24,7 +24,5 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      - run: > 
-          export DOTNET_ROOT="/home/ubuntu/.dotnet"
-          retype build
+      - run: export DOTNET_ROOT=/home/ubuntu/.dotnet
+      - run: retype build
